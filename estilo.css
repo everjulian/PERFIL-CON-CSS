@@ -1,0 +1,105 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #98e4b179;
+    /* background-image: url(https://pureskillszambia.com/wp-content/uploads/2018/08/pattern.jpg); */
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  section {
+    width: 800px;
+    margin: 20px auto 0;
+    padding: 15px 15px 0;
+    border: 1px solid #d4e7ff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 16px 1px #bdd0e9;
+  
+  }
+  
+  section a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #e42323;
+  }
+  
+  .image, .about, .skills .skill-list {
+    display: inline-block;
+
+  }
+  
+  .image {
+    width: 260px;
+    padding: 10px 15px;
+    text-align: center;
+  
+
+  }
+  
+  
+  .image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 16px 1px #0fa9cf;
+    /* box-shadow: 10px 5px 5px black; */
+    
+  }
+  
+  .about {
+    width: 460px;
+    padding: 10px 15px;
+  }
+  
+  .video-responsive {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%; /* con base en el aspect ratio del formato de video de YouTube */
+    padding-top: 30px;
+    position: relative;
+    width: 800px;
+    margin: 0 auto 15px;
+  }
+  
+  .video-responsive iframe {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  .skills div.skill-list {
+    vertical-align: top;
+    margin: 0 30px;
+  }
+  
+  .social ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social ul li {
+    display: inline;
+    font-size: 17px;
+    margin-right: 15px;
+  }
+  
+  
+.skill-list:first-of-type {
+    margin-left: 0 !important;
+  }
+  
+  section a:hover {
+    color: #ff007b;
+  }
+  
+  .social ul li:first-child a:hover {
+    color: #5897d6;
+  }
+  
+  .social ul li:nth-child(2) a:hover {
+    color: #1ca4daee;
+  }
+  
